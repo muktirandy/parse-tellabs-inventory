@@ -1,0 +1,21 @@
+Value Filldown Hostname (\S+)
+Value ControlUnit (\S*)
+Value Slot (.*)
+Value Status (\S*)
+Value serialnumber (\S*)
+Value cleimodule (\S*)
+Value tlsn (\S*)
+Value hwtype (\S*)
+Value module (\S*)
+Value typemodule (\S*)
+Value numsfp (\S*)
+
+Start 
+  ^${Hostname}[#].*
+  ^Control unit ${ControlUnit}
+  ^.*unit in slot ${Slot} is part of inventory and ${Status}
+  ^.*has serial number ${serialnumber}, CLEI code ${cleimodule}
+  ^.*top level serial number ${tlsn}
+  ^.*HW type ${hwtype}
+  ^.*module ${module}.*of type ${typemodule}
+  ^.*XFP connector ${numsfp}.* 

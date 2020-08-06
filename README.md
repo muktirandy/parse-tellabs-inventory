@@ -8,7 +8,7 @@ Requirement to running this script
 
 TBH im still learn python, maybe you will find some anomaly or bugs during runn those script. I create 2 files for source textfsm : tellabs-sfp and tellabs-module. 
 
-> tellabs-sfp : generate output based on sfp
-> tellabs-module : generate output based on module
++ tellabs-sfp : generate output based on sfp
++ tellabs-module : generate output based on module
 
 I still cant combine both function into single file. I open feedback through my email randymukti@gmail.com
